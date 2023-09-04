@@ -7,7 +7,7 @@ const config = {
     entry: [ path.join(CURRENT_WORKING_DIR , './server/server.js') ],
     target: "node",
     output: {
-        path: "./",
+        path: CURRENT_WORKING_DIR,
         filename: "server.generated.js",
         libraryTarget: "commonjs2"
     },
