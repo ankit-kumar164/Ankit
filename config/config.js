@@ -2,7 +2,7 @@ require('dotenv').config();
 
 const config = {
   env: process.env.NODE_ENV || 'development',
-  port: process.env.PORT || 3000,
+  port: process.env.PORT || 8000,
   jwtSecret: process.env.JWT_SECRET || "YOUR_secret_key",
   mongoUri: ('mongodb+srv://'+'ankit614:'+process.env.Pass_Word+'@ankit.r1q5cu3.mongodb.net/?retryWrites=true&w=majority') || process.env.MONGODB_URI ||
     process.env.MONGO_HOST ||
