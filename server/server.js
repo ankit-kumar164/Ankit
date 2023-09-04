@@ -9,7 +9,7 @@ mongoose.connection.on('error', () => {
   throw new Error(`unable to connect to database: ${config.mongoUri}`)
 })
 
-const defaultPort = 3000;
+const defaultPort = 8000;
 const port = process.env.PORT || defaultPort
 app.listen(port, () => {
   console.log(`app is running on http://localhost:${port}`)
