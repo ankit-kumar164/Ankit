@@ -1,14 +1,5 @@
 /data/
 npm-debug.log
-# dependencies
-.pnp
-.pnp.js
-
-# testing
-coverage
-
-# production
-build
 
 # misc
 .env
