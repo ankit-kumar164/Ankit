@@ -10,7 +10,7 @@ mongoose.connection.on('error', () => {
 })
 
 const defaultPort = 8000;
-const port = defaultPort
+const port = defaultPort;
 app.listen(port, () => {
   console.log(`app is running on http://localhost:${port}`)
 });
